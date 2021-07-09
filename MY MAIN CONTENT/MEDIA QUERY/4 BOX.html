@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>4 BOX</title>
+    <style>
+      .box1 {
+        height: 200px;
+        width: 24.26%;
+        background: red;
+        float: left;
+      }
+      .box2 {
+        height: 200px;
+        width: 24.26%;
+        background: yellow;
+        float: left;
+        margin-left: 1%;
+      }
+      .box3 {
+        height: 200px;
+        width: 24.26%;
+        background: orange;
+        float: left;
+        margin-left: 1%;
+      }
+      .box4 {
+        height: 200px;
+        width: 24.26%;
+        background: blue;
+        float: right;
+      }
+      /************************tablet*****************/
+      @media (max-width: 960px) {
+        .box1 {
+          width: 48%;
+          float: left;
+        }
+        .box2 {
+          width: 48%;
+          float: right;
+        }
+        .box3 {
+          width: 48%;
+          float: left;
+          margin: auto;
+          margin-top: 10px;
+        }
+        .box4 {
+          width: 48%;
+          float: right;
+          margin-top: 10px;
+        }
+      }
+      /********************mobile*****************/
+      @media (max-width: 480px) {
+        .box1 {
+          height: 80px;
+          float: none;
+          width: 98%;
+          margin: auto;
+        }
+        .box2 {
+          height: 80px;
+          float: none;
+          width: 98%;
+          margin: auto;
+          margin-top: 10px;
+        }
+        .box3 {
+          height: 80px;
+          float: none;
+          width: 98%;
+          margin: auto;
+          margin-top: 10px;
+        }
+        .box4 {
+          height: 80px;
+          float: none;
+          width: 98%;
+          margin: auto;
+          margin-top: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+  </body>
+</html>

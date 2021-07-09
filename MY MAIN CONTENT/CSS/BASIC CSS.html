@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>BASIC CSS</title>
+    <style>
+      .fl {
+        float: left;
+      }
+      .fr {
+        float: right;
+      }
+      .clr {
+        clear: both;
+      }
+      .new {
+        margin-left: 0.5%;
+        float: left;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .headfoot {
+        background: red;
+        text-align: center;
+        color: #ffff00;
+        text-transform: capitalize;
+      }
+      .padding20 {
+        padding: 20px;
+      }
+      .padding10 {
+        padding: 10px;
+        margin-top: 10px;
+      }
+      .box {
+        width: 33%;
+        background: red;
+        height: 494.5px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!---------------------------------header start----------------------------------->
+    <div class="headfoot padding20"><h1>header</h1></div>
+    <hr />
+    <!---------------------------------header end------------------------------------->
+    <!---------------------------------body start------------------------------------->
+    <div class="box fl"></div>
+    <div class="box new"></div>
+    <div class="box fr"></div>
+    <!---------------------------------body end--------------------------------------->
+    <div class="clr"></div>
+    <!----------------------------------footer start---------------------------------->
+    <div class="headfoot padding10"><h1>footer</h1></div>
+    <hr />
+    <!----------------------------------footer end------------------------------------>
+  </body>
+</html>

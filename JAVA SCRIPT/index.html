@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="jQuery.js"></script>
+    <script></script>
+    <style>
+      #mainnnnn {
+        height: 100px;
+        width: 300px;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="mainnnnn" onscroll="myfunction()">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iure
+      atque odio quibusdam amet, temporibus voluptas nam, cupiditate, quos
+      soluta ex sunt hic cum tempore earum laboriosam exercitationem enim?
+      Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Officia iure atque odio quibusdam amet, temporibus voluptas nam,
+      cupiditate, quos soluta ex sunt hic cum tempore earum laboriosam
+      exercitationem enim? Voluptatibus.
+    </section>
+    <section>
+      <p id="demo">0</p>
+    </section>
+    <script>
+      let data = 0;
+      function myfunction() {
+        document.getElementById("demo").innerHTML = data += 1;
+        document.getElementById("demo").style.backgroundColor = "pink";
+      }
+    </script>
+  </body>
+</html>

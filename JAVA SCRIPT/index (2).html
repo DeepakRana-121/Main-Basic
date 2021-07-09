@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .text {
+        height: 200px;
+        width: 500px;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="text" onscroll="myfunction()">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+        nostrum illum placeat quae necessitatibus eligendi inventore, neque quos
+        quibusdam autem hic totam magnam! Totam nisi magni enim vel vitae
+        commodi? Maxime, beatae amet tempora eum quod architecto molestias
+        officiis veniam quidem vel doloribus corrupti laudantium quos blanditiis
+        enim doloremque? Atque sequi quos eos quisquam voluptate iusto
+        consequuntur quaerat nemo ipsam. Dicta at ducimus distinctio repudiandae
+        ex reprehenderit, ea in et soluta illum porro debitis? Cumque
+        dignissimos minima eum non tenetur itaque sed placeat veniam quod autem
+        esse, optio corporis porro? Illum ducimus consequatur facere cum quod
+        distinctio excepturi corrupti, deserunt earum, dolorem deleniti velit ex
+        beatae libero omnis officiis non laudantium in ea ut iste quis labore.
+        Laudantium, voluptate at? Fugit repudiandae molestias excepturi. Modi
+        ipsa cupiditate nostrum esse ab. Voluptas iure repudiandae molestias cum
+        atque perferendis qui quos! Eveniet maxime quod recusandae explicabo
+        excepturi itaque corporis sunt quam eos? Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Deleniti nostrum illum placeat quae
+        necessitatibus eligendi inventore, neque quos quibusdam autem hic totam
+        magnam! Totam nisi magni enim vel vitae commodi? Maxime, beatae amet
+        tempora eum quod architecto molestias officiis veniam quidem vel
+        doloribus corrupti laudantium quos blanditiis enim doloremque? Atque
+        sequi quos eos quisquam voluptate iusto consequuntur quaerat nemo ipsam.
+        Dicta at ducimus distinctio repudiandae ex reprehenderit, ea in et
+        soluta illum porro debitis? Cumque dignissimos minima eum non tenetur
+        itaque sed placeat veniam quod autem esse, optio corporis porro? Illum
+        ducimus consequatur facere cum quod distinctio excepturi corrupti,
+        deserunt earum, dolorem deleniti velit ex beatae libero omnis officiis
+        non laudantium in ea ut iste quis labore. Laudantium, voluptate at?
+        Fugit repudiandae molestias excepturi. Modi ipsa cupiditate nostrum esse
+        ab. Voluptas iure repudiandae molestias cum atque perferendis qui quos!
+        Eveniet maxime quod recusandae explicabo excepturi itaque corporis sunt
+        quam eos?
+      </p>
+    </section>
+    <section>
+      <p id="main">0</p>
+    </section>
+    <script>
+      let hello = 0;
+      function myfunction() {
+        document.getElementById("main").innerHTML = hello += 1;
+      }
+    </script>
+  </body>
+</html>
